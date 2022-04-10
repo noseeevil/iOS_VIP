@@ -119,7 +119,6 @@ struct CreateIceCreamView: View {
       .onAppear {
           fetchIceCream()
       }
-
     }
     .navigationViewStyle(.stack)
   }
