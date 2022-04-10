@@ -15,6 +15,7 @@
 		C0174DAE28034283004E2CEB /* CreateIceCreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0174DAD28034283004E2CEB /* CreateIceCreamModel.swift */; };
 		C0174DB02803489E004E2CEB /* CreateIceCreamInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0174DAF2803489E004E2CEB /* CreateIceCreamInteractor.swift */; };
 		C0174DB228034B40004E2CEB /* CreateIceCreamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0174DB128034B40004E2CEB /* CreateIceCreamPresenter.swift */; };
+		C0174DB428035D7D004E2CEB /* CreateIceCreamConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0174DB328035D7D004E2CEB /* CreateIceCreamConfigurator.swift */; };
 		EA3B6B7227282CD800CE9E2B /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B6B7127282CD800CE9E2B /* IceCream.swift */; };
 		EA3B6B77272836B900CE9E2B /* IceCreamDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B6B76272836B900CE9E2B /* IceCreamDataStore.swift */; };
 		EA42A07F272EEBF900A82D0A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42A07E272EEBF900A82D0A /* CodableBundleExtension.swift */; };
@@ -45,6 +46,7 @@
 		C0174DAD28034283004E2CEB /* CreateIceCreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamModel.swift; sourceTree = "<group>"; };
 		C0174DAF2803489E004E2CEB /* CreateIceCreamInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamInteractor.swift; sourceTree = "<group>"; };
 		C0174DB128034B40004E2CEB /* CreateIceCreamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamPresenter.swift; sourceTree = "<group>"; };
+		C0174DB328035D7D004E2CEB /* CreateIceCreamConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamConfigurator.swift; sourceTree = "<group>"; };
 		EA3B6B652725B14100CE9E2B /* ScoopsAndSconesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopsAndSconesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B6B7127282CD800CE9E2B /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
 		EA3B6B76272836B900CE9E2B /* IceCreamDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamDataStore.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				C0174DAD28034283004E2CEB /* CreateIceCreamModel.swift */,
 				C0174DAF2803489E004E2CEB /* CreateIceCreamInteractor.swift */,
 				C0174DB128034B40004E2CEB /* CreateIceCreamPresenter.swift */,
+				C0174DB328035D7D004E2CEB /* CreateIceCreamConfigurator.swift */,
 			);
 			path = CreateIceCream;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				C0174DB228034B40004E2CEB /* CreateIceCreamPresenter.swift in Sources */,
 				EA42A07F272EEBF900A82D0A /* CodableBundleExtension.swift in Sources */,
 				EA3B6B77272836B900CE9E2B /* IceCreamDataStore.swift in Sources */,
+				C0174DB428035D7D004E2CEB /* CreateIceCreamConfigurator.swift in Sources */,
 				C0174DAE28034283004E2CEB /* CreateIceCreamModel.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				EA9C6495271B0CE2000AD66F /* CreateIceCreamView.swift in Sources */,
