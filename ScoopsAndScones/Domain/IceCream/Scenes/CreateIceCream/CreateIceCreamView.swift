@@ -33,8 +33,13 @@
 import SwiftUI
 
 extension CreateIceCreamView {
-  // TODO: Call interactor to fetch data
+  
+  func fetchIceCream() {
+    let request = CreateIceCream.LoadIceCream.Request()
+    interactor?.loadIceCream(request: request)
+  }
 
+  
   // HELPER VIEW FUNCTION
   func showIceCreamImage() -> Bool {
     if selectedCone.isEmpty || selectedFlavor.isEmpty || selectedTopping.isEmpty {
@@ -46,7 +51,8 @@ extension CreateIceCreamView {
 
 struct CreateIceCreamView: View {
   // TODO: Add interactor
-
+  var interactor: CreateIceCreamBusinessLogic?
+  
   @ObservedObject var iceCream = IceCreamDataStore()
   @State private var selectedCone = ""
   @State private var selectedFlavor = ""
@@ -110,6 +116,10 @@ struct CreateIceCreamView: View {
         }
       }
       .navigationTitle("Scoops&Scones")
+      .onAppear {
+          fetchIceCream()
+      }
+
     }
     .navigationViewStyle(.stack)
   }
